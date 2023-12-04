@@ -6,6 +6,7 @@ public class main {
         private static final int STATIC_COLLECTION_SIZE = 5; // Размер статической коллекции
 
         public static void main(String[] args) {
+            System.out.println("Hello world!");
             // 1. Добавление и удаление объектов
             ArrayList<String> stringList = new ArrayList<>();
             stringList.add("Java");
